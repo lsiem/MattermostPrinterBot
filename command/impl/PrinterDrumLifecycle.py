@@ -1,0 +1,2 @@
+class PrinterDrumLifecycle:
+    pass
