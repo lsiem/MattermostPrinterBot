@@ -3,6 +3,10 @@
 The project was created during a 2 week internship at bytemine GmbH.
 The bot is able to provide information about the ink level of an MFC-9332CDW printer via Mattermost.
 
+# Requirements
+You need to install python mattermost driver to get the bot working.  
+(https://github.com/Vaelor/python-mattermost-driver)  
+
 # Installation
 To get the bot up and running, simply create a configuration file and start the main.py file with python 3.
 
