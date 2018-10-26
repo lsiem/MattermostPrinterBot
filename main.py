@@ -4,7 +4,7 @@ from event.test import EventTester
 from config.Config import Config
 from event.EventManager import EventManager
 from event.impl import EventCommand
-#from wrapper.BotWrapper import BotWrapper
+# from wrapper.BotWrapper import BotWrapper
 from command.test import CommandTest
 import Bot
 

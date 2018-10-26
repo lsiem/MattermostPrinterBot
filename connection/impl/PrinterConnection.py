@@ -2,6 +2,7 @@ from connection.ConnectionManager import ConnectionManager
 from debug.ClientLogger import ClientLogger, LoggingMode
 from Bot import Bot
 
+
 class PrinterConnection:
     con_manager = None
 
@@ -21,7 +22,7 @@ class PrinterConnection:
         data = data[pattern:]
         start = self.get_pattern(data, '<dd>')
         end = self.get_pattern(data, '</dd>')
-        data = data[start+len('<dd>'):end]
+        data = data[start + len('<dd>'):end]
         data = data.strip(b'()')
         return data.decode()
 
