@@ -17,7 +17,7 @@ channel -> Enter the channel name where the bot should be active
 access_token -> Enter the access token of the bot. Check out (Check https://docs.mattermost.com/developer/personal-access-tokens.html)  
 source -> Here you can add additional config sources. (At the moment only printer is available)
 
-# Example of an configuration file:
+# Example of a configuration file:
 ```
 host:         mattermost.example.net
 user:         john
